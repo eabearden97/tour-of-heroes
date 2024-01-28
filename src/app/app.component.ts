@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeroesComponent } from './heroes/heroes.component';
-import { Hero } from './hero';
 
 @Component({
   selector: 'app-root',
@@ -12,8 +11,4 @@ import { Hero } from './hero';
 })
 export class AppComponent {
   title = 'Tour of Heroes';
-  hero: Hero = {
-    id: 1,
-    name: 'Alexander'
-  };
 }
